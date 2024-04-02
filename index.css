@@ -5,10 +5,14 @@
 .header{
     display: flex;
     justify-content: space-between;
+    border: 1px solid black;
 
 }
 .nav-items > ul{
+    font-size: 25px;
     display: flex;
+    list-style-type: none;
+    padding: 0px 20px;
 }
 .nav-items >ul >li{
     padding: 10px;
@@ -16,4 +20,27 @@
 }
 .logo{
     width: 150px;
+}
+.res-card{
+    padding: 5px;
+    width: 200px;
+    height: 300px;
+    
+}
+.search{
+    padding: 10px;
+}
+.food-img{
+    
+    width: 100%;
+    height: 60%;
+}
+.res-card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.res-container{
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
